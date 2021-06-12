@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'antd';
 
-export const IntroScreen = ( { scroll } ) => {
+export const Intro = ( { scroll } ) => {
     return (
         <section className="intro__section" id="intro">
             <div className="intro__title">

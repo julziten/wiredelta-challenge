@@ -4,7 +4,7 @@ import contact from '../assets/contact.jpg';
 
 import { TwitterOutlined,FacebookOutlined,InstagramOutlined, LinkedinOutlined, GithubOutlined  } from '@ant-design/icons';
 
-export const ContactScreen = React.forwardRef( ( props, ref ) => {
+export const Contact = React.forwardRef( ( props, ref ) => {
     return (
         <div className="contact__container" ref={ref}>
 

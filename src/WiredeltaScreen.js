@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { VolunteerForm } from './components/VolunteerForm';
-import { ContactScreen } from './components/ContactScreen';
+import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
-import { IntroScreen } from './components/IntroScreen';
+import { Intro } from './components/Intro';
 import { MyMapComponent } from './components/MyMapComponent';
 import { About } from './components/About';
 import { Divider } from './components/Divider';
@@ -42,7 +42,7 @@ export const WiredeltaScreen = () => {
 
             <main>
 
-                <IntroScreen scroll={ scrollIntoForm }/>
+                <Intro scroll={ scrollIntoForm }/>
 
                 <About ref={ aboutRef }/>
 
@@ -52,7 +52,7 @@ export const WiredeltaScreen = () => {
 
                 <Divider title="Contact Us!"/>
 
-                <ContactScreen ref={ contactRef }/>
+                <Contact ref={ contactRef }/>
 
                 <MyMapComponent isMarkerShown/>
 

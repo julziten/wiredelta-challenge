@@ -32,26 +32,3 @@ main {
 .pointer {
     cursor: pointer;
 }
-
-.divider__container {
-    align-items: center;
-    background-image: url('./../../assets/divider.jpg');
-    background-position: center;
-    background-size: cover;
-    filter: grayscale(40%);
-    height: 200px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    h1 {
-        color: white;
-        font-size: 3em;
-        font-weight: bold;
-        padding: 10px;
-        background-color: rgba(0, 0, 0, 0.356);
-    }
-}
