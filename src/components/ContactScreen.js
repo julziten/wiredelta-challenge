@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Button } from 'antd';
+import { Image } from 'antd';
 import contact from '../assets/contact.jpg';
 
 import { TwitterOutlined,FacebookOutlined,InstagramOutlined, LinkedinOutlined, GithubOutlined  } from '@ant-design/icons';
@@ -24,22 +24,22 @@ export const ContactScreen = React.forwardRef( ( props, ref ) => {
 
                     <div className="contact__social">
 
-                        <a href="https://twitter.com" target="_blank">
+                        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
                             <TwitterOutlined className="contact__icon pointer"/>
                         </a>
 
-                        <a href="https://facebook.com" target="_blank">
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                             <FacebookOutlined className="contact__icon pointer"/>
                         </a>
-                        <a href="https://instagram.com" target="_blank">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
                             <InstagramOutlined className="contact__icon pointer"/>
                         </a>
 
-                        <a href="https://linkedin.com/in/rochajulianacarolina" target="_blank">
+                        <a href="https://linkedin.com/in/rochajulianacarolina" target="_blank" rel="noopener noreferrer">
                             <LinkedinOutlined className="contact__icon pointer"/>
                         </a>
 
-                        <a href="https://github.com/julziten" target="_blank">
+                        <a href="https://github.com/julziten" target="_blank" rel="noopener noreferrer">
                             <GithubOutlined className="contact__icon pointer"/>
                         </a>
 

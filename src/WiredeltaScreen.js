@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef } from 'react';
 import { VolunteerForm } from './components/VolunteerForm';
 import { ContactScreen } from './components/ContactScreen';
 import { Footer } from './components/Footer';
