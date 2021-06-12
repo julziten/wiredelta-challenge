@@ -1,0 +1,32 @@
+.form__container {
+    margin: 5em 0;
+    text-align: center;
+
+    h2 {
+        font-size: 2em;
+        padding: 1.5em;
+
+        span {
+            color: $primary;
+        }
+    }
+}
+
+span {
+    text-align: left;
+}
+
+// mobile
+
+@media only screen and (max-width : 900px) {
+    .form__container {
+        margin: 5em 2em;
+    }
+
+    .form__container {
+        h2 {
+            padding: 0 0 2em 0;
+        }
+    }
+
+}
