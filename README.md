@@ -23,11 +23,11 @@ You will also see any lint errors in the console.
 
 ## Dependencies Used
 
-sass
-ant design
-craco less
-react google maps
-hamburger react
+sass./
+ant design./
+craco less./
+react google maps./
+hamburger react./
 
 
 ## Google Maps API
