@@ -6,8 +6,8 @@ import {
   GoogleMap,
   Marker
 } from "react-google-maps";
+import { apiKey } from "../keys/apiKey";
 
-const apiKey = 'AIzaSyC9Zx10O6GZh_XXTeqY1a1uexb1pEdLcqg';
 
 // Note: create and replace your own key in the Google console.
 
