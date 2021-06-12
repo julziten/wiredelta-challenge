@@ -8,8 +8,8 @@ import {
 } from "react-google-maps";
 import { apiKey } from "../keys/apiKey";
 
-
-// Note: create and replace your own key in the Google console.
+// please create apiKey file in order to run the the google maps section
+// Create and replace your own key in the Google console.
 
 export const MyMapComponent = compose(
   withProps({
